@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intitucion y Ramas</title>
+
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: #333;
+        text-align: center;
+
+
+    }
+
+
+
+
+    .header {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+    .header p {
+        color: red;
+    }
+
+
+    .nav-bar {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(16, 124, 224);
+        ;
+    }
+
+    .nav-list li.centro {
+        margin: 0 15px;
+
+
+    }
+
+    .nav-list a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .nav-list a:hover {
+        color: rgb(16, 124, 224);
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    .main-content {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .content {
+        max-width: 150;
+        text-align: center;
+    }
+
+    img {
+        max-width: 50vh;
+        height: auto;
+        border-radius: 20px;
+        border: 5px solid rgb(74, 32, 228) !important;
+        width: 1000px;
+    }
+
+
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    @media (max-width: 768px) {
+        .nav-list {
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        .nav-list li {
+            margin: 10px 0;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
+
+    nav.centros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav.centros li {
+        background-color: #fff;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+        font-size: 18px;
+        color: #333;
+        transition: transform 0.2s;
+    }
+
+    nav.centros li:hover {
+        transform: scale(1.15);
+        background-color: rgb(16, 124, 224);
+        ;
+        ;
+    }
+
+    li.inicio {
+        background-color: #28b935;
+        color: #fff;
+    }
+
+    li.centro {
+        background-color: #333;
+        color: #fff;
+    }
+
+    h4 {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Institucion</h1>
+    <h2>Colegio Tecnico Profecional-Abelardo Bonilla Baldares</h2>
+
+
+    <nav class="nav-bar"></nav>
+    <ul class="nav-list">
+        <li><a href="index.html" rel="noopener noreferrer">Inicio</a></li>
+        <li><a href="Quienes somos.html" rel="noopener noreferrer">Quienes somos</a></li>
+        <li><a href="Que aprendes.html" rel="noopener noreferrer">Que Aprendes?</a></li>
+        <li><a href="contacto.html" rel="noopener noreferrer">Aprende con Nosotros</a></li>
+    </ul>
+    </nav>
+
+    <p style="font-size: larger;">El Colegio Técnico Abelardo Bonilla Baldares se caracteriza por ofrecer una educación
+        técnica integral, enfocándose en la formación de profesionales competentes en diversas áreas. Con un plan de
+        estudios que combina teoría y práctica, los estudiantes desarrollan habilidades técnicas y blandas que les
+        preparan para el mundo laboral.
+        El ambiente educativo es dinámico y colaborativo, fomentando el trabajo en equipo y la innovación. Además, el
+        colegio cuenta con laboratorios y talleres equipados para que los alumnos puedan aplicar lo aprendido en
+        situaciones reales. A través de proyectos y actividades extracurriculares, se promueve una formación integral
+        que va más allá del aula, preparando a los estudiantes para enfrentar los desafíos del futuro
+    <main class="main-content">
+        <section class="content">
+            <img src="hack.jpg" alt="Colegios ABB">
+        </section>
+    </main>
+
+    <h3 style="background-color:rgb(16, 124, 224) ;">Ramas de la Informatica</h3>
+    <p style="font-size: large;">La informática es una disciplina que abarca el estudio, desarrollo y aplicación de
+        sistemas computacionales para el procesamiento de información. Se divide en diversas ramas que se especializan
+        en diferentes aspectos tecnológicos y científicos</p>
+    <h4>Lista de ramas de la Informatica</h4>
+
+
+    <nav class="centros">
+        <li class="inicio">Programacion</li>
+        <li class="centro">Seguridad Informatica</li>
+        <li class="inicio">Base de Datos</li>
+        <li class="centro">Desarrollo web</li>
+        <li class="Inicio">Redes</li>
+        <li class="centro">Ingenieria de Software</li>
+        <li class="Inicio">Inteligencia Articifial</li>
+        <li class="centro">Visualizacion de datos</li>
+        <li class="Inicio">Sistema Operativo</li>
+        <li class="centro">Computacion Cuantica</li>
+    </nav>
+
+
+
+</html>

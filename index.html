@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTP Abelardo Bonillla Baldare</title>
+
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1,
+    h2 {
+        color: #333;
+        text-align: center;
+    }
+
+
+    .header {
+        background-color: #f4f4f4;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .header p {
+        color: red;
+    }
+
+
+    .nav-bar {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(16, 124, 224);
+        text-decoration: none;
+    }
+
+    .nav-list li {
+        margin: 0 15px;
+    }
+
+    .nav-list a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .nav-list a:hover {
+        color: rgb(16, 124, 224);
+        background-color: white;
+        border-radius: 5px;
+
+    }
+
+    .main-content {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content {
+        max-width: 800px;
+        text-align: center;
+    }
+
+    img {
+        max-width: 40vh;
+        height: auto;
+        border-radius: 10px;
+        border: 5px solid blue !important;
+    }
+
+
+    .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+    @media (max-width: 768px) {
+        .nav-list {
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        .nav-list li {
+            margin: 10px 0;
+        }
+    }
+</style>
+
+<body>
+    <header class="header">
+        <h1>Mi Primera Página Web Responsive</h1>
+        <p>Descubriendo el desarrollo web</p>
+    </header>
+    <nav class="nav-bar"></nav>
+    <ul class="nav-list">
+        <li><a href="index.html" rel="noopener noreferrer">Inicio</a></li>
+        <li><a href="Quienes somos.html" rel="noopener noreferrer">Quienes somos</a></li>
+        <li><a href="Que aprendes.html" rel="noopener noreferrer">Que Aprendes?</a></li>
+        <li><a href="contacto.html" rel="noopener noreferrer">Aprende con Nosotros</a></li>
+    </ul>
+    </nav>
+
+    <main class="main-content">
+        <section class="content">
+            <h2>Sobre el proyecto</h2>
+            <p>Este proyecto fue echo con el fin de que aprendas nuevas habilidades especialmente en el mundo digital desde el manejo básico de software ,juntos exploraremos herramientas que te ayudarán a potenciar tu creatividad</p>
+            <img src="bannerprofesores.jpg" alt="Gato">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Colegio Abelardo Bonilla (Estudiantes de 9° año)</p>
+    </footer>
+</body>
+
+</html>
